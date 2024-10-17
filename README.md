@@ -1,4 +1,4 @@
-# Exploring the scLinear Model: Application to Cancer Cells and Other Tissue Types
+# Evaluating scLinear's Performance in Cancer and Non-Immune Cells
 
 ## Project Overview
 This project investigates the performance of the **scLinear** model from the R package in predicting **antibody-derived tags (ADT)** from gene expression data in **non-immune tissues** such as cancer cells. While scLinear has demonstrated high accuracy in immune-related cells, this study aims to explore its capabilities in **non-immune environments**, particularly in pathological conditions like cancer.
