@@ -1,7 +1,7 @@
 # Evaluating scLinear's Performance in Cancerous Tissues
 
 ## Project Overview
-This project investigates the performance of the **scLinear** model from the R package in predicting **antibody-derived tags (ADT)** from gene expression data in **non-immune tissues** such as cancer cells. While scLinear has demonstrated high accuracy in immune-related cells, this study aims to explore its capabilities in **non-immune environments**, particularly in pathological conditions like cancer.
+This project investigates the performance of the **scLinear** model from the R package in predicting **antibody-derived tags (ADT)** from **gene expression (GEX)** data in cancerous tissues. While scLinear has demonstrated high accuracy in immune-related cells from healthy donors, this study aims to explore its prediction in kidney, breast and lung cancer.
 
 The research is based on the work of **Daniel Hanhart**, whose method is outlined in the paper [scLinear: predicting ADT from gene expression](https://www.nature.com/articles/s42003-024-05958-4). This study expands the application of scLinear beyond its initial focus on healthy hematopoietic cells.
 
@@ -22,7 +22,7 @@ The project seeks to fill a gap in the current usage of scLinear, as the paper n
 
 > "The measured proteins in the available CITE-seq datasets are, in their vast majority, immune-related. Therefore, although scLinear shows very accurate results in hematopoietic cells from healthy donors, its performance in pathological conditions and in modeling the abundance of non-immune protein markers remain to be explored."
 
-Given that scLinear's efficacy in non-immune cells like cancer remains untested, the core objective is to determine whether scLinear can successfully predict ADT data for **cancer cells** and other non-immune tissues.
+Given that scLinear's efficacy in non-immune cells like cancer remains untested, the core objective is to determine whether scLinear can successfully predict ADT data for **cancerous tissues**.
 
 ## References
 - **Daniel Hanhart**, scLinear: [GitHub Repository](https://github.com/DanHanh/scLinear)
