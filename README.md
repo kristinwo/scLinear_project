@@ -6,7 +6,7 @@ This project investigates the performance of the **scLinear** model from the R p
 The research is based on the work of **Daniel Hanhart**, whose method is outlined in the paper [ScLinear predicts protein abundance at single-cell resolution](https://www.nature.com/articles/s42003-024-05958-4). This study expands the application of scLinear beyond its initial focus on healthy hematopoietic cells.
 
 ## Supervisor
-The project is conducted under the supervision of **Panagiotis Chouvardas**.
+The project is conducted under the supervision of **Dr. Panagiotis Chouvardas**.
 
 ## About scLinear
 The **scLinear** package provides a streamlined solution for predicting ADT data from single-cell RNA-sequencing (scRNA-seq) data. Equipped with pre-trained models and customizable options for training new models, scLinear simplifies preprocessing and modeling of ADT data, making it accessible to a wide range of users.
