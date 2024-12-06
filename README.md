@@ -3,7 +3,7 @@
 ## Project Overview
 This project investigates the performance of the **scLinear** model from the R package in predicting **antibody-derived tags (ADT)** from **gene expression (GEX)** data in cancerous tissues. While scLinear has demonstrated high accuracy in immune-related cells from healthy donors, this study aims to explore its prediction in kidney, breast and lung cancer.
 
-The research is based on the work of **Daniel Hanhart**, whose method is outlined in the paper [scLinear: predicting ADT from gene expression](https://www.nature.com/articles/s42003-024-05958-4). This study expands the application of scLinear beyond its initial focus on healthy hematopoietic cells.
+The research is based on the work of **Daniel Hanhart**, whose method is outlined in the paper [ScLinear predicts protein abundance at single-cell resolution](https://www.nature.com/articles/s42003-024-05958-4). This study expands the application of scLinear beyond its initial focus on healthy hematopoietic cells.
 
 ## Supervisor
 The project is conducted under the supervision of **Panagiotis Chouvardas**.
