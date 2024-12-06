@@ -322,10 +322,10 @@ breast_data <- get_celltype_data(breast, "Breast")
 lung_data <- get_celltype_data(lung, "Lung")
 celltype_data <- bind_rows(kidney_data, breast_data, lung_data)
 
-# Calculate percentage of each cell type per tissue
+# Calculate the percentage of each cell type within each tissue
 celltype_percentages <- celltype_data %>%
   group_by(tissue, cell_type) %>%
-  summarise(count = n()) %>%
+  dplyr::summarise(count = n()) %>%
   group_by(tissue) %>%
   mutate(percentage = count / sum(count) * 100)
 
